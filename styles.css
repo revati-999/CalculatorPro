@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    background:linear-gradient(to right,rgb(252, 181, 193),rgb(229, 148, 229));
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+#calc{
+    width:25%;
+    /* border:1px solid white; */
+    border-radius:10px;
+    overflow: hidden;
+    box-shadow:4px 4px 4px 4px rgba(0,0,0,0.5);
+    text-align: right;
+}
+
+.display{
+    width:100%;
+    height:18vh;
+    background-color: black;
+    color:rgb(250, 250, 250);
+}
+
+.in{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+button{
+    border:1px solid white;
+    padding:1.3rem;
+    font-size:23px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+
+}
+
+button:hover{
+    font-weight: bolder;
+}
+.out{
+    padding:20px;
+    
+}
+
+.ans{
+padding:20px;
+}
